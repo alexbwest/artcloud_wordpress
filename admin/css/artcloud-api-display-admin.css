@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.container {
+	float: left;
+}
+.art-block {
+	max-width: 97%;	
+	background: #fff;
+	overflow: hidden;
+	padding: 0
+}
+.art-titl {
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	background: #03A9F4;
+	padding-left: 10px;
+	color: #fff;
+}
+.art-titl span {
+	padding-top: 9px;
+    display: block;
+    float: left;    
+    padding-right: 5px;
+}
+#apiHelp {
+	float: none;
+	width: 100%;
+	color: cornflowerblue;
+	padding-top: 5px;
+}
+i.artcloud {
+	background-image: url(cloud.png);
+}
+.arcloud_button {
+	background: url(cloud.png)!important;
+    background-position: left center!important;
+    background-repeat: no-repeat !important;
+    background-size: contain!important;
+    padding-left: 35px!important
+}

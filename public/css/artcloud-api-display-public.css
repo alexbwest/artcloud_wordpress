@@ -1,0 +1,61 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ #mask {
+	position: absolute;
+    width: 60px;
+    height: 60px;
+    
+    top: 50%;
+    left: 45%;
+    
+    background: url(../images/cloud.png) no-repeat center center;
+    background-size: cover!important;
+	opacity: 0.6;
+    
+    animation: scaleAnim .8s linear infinite;
+}
+#artcloud-container {
+	min-height: 300px;
+	width: 100%;
+	position: relative;
+
+}
+
+#artcloud-content {
+    overflow: hidden;
+}
+
+#artcld .col-4 img {
+    height: 200px;
+    width: 95%!important;
+    object-fit: cover;
+}
+
+@keyframes scaleAnim {
+    0% { transform: scale(.8); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(.8); }
+}
+
+
+.articon { 
+    animation: scaleAnim .5s linear infinite;
+    margin-top: 15px
+}
+/*#artcloud-content.grid img {
+	height: 200px!important;
+}*/
+
+@media only screen and (max-width: 680px) { 
+    .col-4 {
+        width: 100%!important;
+    }
+}
+
+@keyframes scaleAnim {
+  0% { transform: scale(.8); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(.8); }
+}
